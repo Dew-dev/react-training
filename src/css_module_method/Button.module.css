@@ -1,0 +1,12 @@
+/* 1.external (index.css)
+2.modules (this one)
+3.inline (button.jsx)*/
+
+.button {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
