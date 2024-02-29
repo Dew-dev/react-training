@@ -1,5 +1,4 @@
-function Button() {
-  
+function Button(props) {
   const styles = {
     backgroundColor: "hsl(200, 100%, 50%)",
     color: "white",
@@ -8,8 +7,30 @@ function Button() {
     border: "none",
     cursor: "pointer",
   };
-  
-  return <button style={styles}> Button</button>;
+  // let count = 0;
+  // const handleClick = (name) => {
+  //   if (count < 3) {
+  //     count++;
+  //     console.log(`${name} you clicked me ${count} times`);
+  //   } else {
+  //     console.log(`now stop ${name}`);
+  //   }
+  // };
+
+  // const handleClick2 = (name) => console.log(`${name} please`);
+  // return (
+  //   <button onClick={() => handleClick("dew")} style={styles}>
+  //     Click me
+  //   </button>
+  // );
+
+  // const handleClick = (e) => (e.target.textContent = "OUCH!!");
+
+  return (
+    <button onClick={props.item} style={styles}>
+      Click me
+    </button>
+  );
 }
 
 export default Button;

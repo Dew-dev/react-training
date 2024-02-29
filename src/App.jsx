@@ -6,6 +6,14 @@ import Button from "./Button";
 import Student from "./Student";
 import UserGreeting from "./UserGreeting";
 import List from "./List";
+import ProfilePicture from "./ProfilePicture";
+import MyComponent from "./MyComponent";
+import Counter from "./Counter";
+import OnChange from "./OnChange";
+import ColorPicker from "./ColorPicker";
+import UpdateObject from "./updateObject";
+import UpdateArray from "./UpdateArray";
+import UpdateArrayOfObjects from "./UpdateArrayOfObjects";
 // props
 function App() {
   //listting in react
@@ -36,7 +44,15 @@ function App() {
       {abjad.length > 0 && <List items={abjad} category="abjad" />}
       {abjadb.length > 0 && <List items={abjadb} category="abjadb" />} */}
 
-      <Button/>
+      {/* <Button /> */}
+      {/* <ProfilePicture /> */}
+      {/* <MyComponent /> */}
+      {/* <UpdateObject /> */}
+      {/* <Counter /> */}
+      {/* <OnChange /> */}
+      {/* <ColorPicker /> */}
+      {/* <UpdateArray /> */}
+      <UpdateArrayOfObjects />
     </>
   );
 }
